@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Šimon Smejkal - web developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+
+<body>
+
+
+  <header>
+    <div class="logo bg-dark"></div>
+    <div class="flags-header">
+      <a class="flag-header" id="czech-flag" href="index_cz.html"><img src="img/czech-flag-grey.png" alt="czech flag" width="37" height="22"></a>
+    </div>
+    <div class="header">
+      <p class="header" id="header1">Šimon Smejkal</p>
+      <p class="header" id="header2"><span class="txt-type" data-wait="3000" data-words='["Web Developer", "Web Designer", "Front-end Developer"]'></span></p>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapse_target">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="nav-home" onclick="changeContent('div-home')">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="nav-cv" onclick="changeContent('div-cv')">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="nav-projects" onclick="changeContent('div-projects')">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="nav-contact" onclick="changeContent('div-contact')">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="flags">
+      <a class="flag" id="czech-flag" href="index_cz.html"><img src="img/czech-flag-grey.png" alt="czech flag" width="50" height="30"></a>
+    </div>
+  </nav>
+
+  <section>
+    <div class="active bg-dark text-light lead" id="div-home">
+      <div class="container text-center">
+        <div class="row">
+          <div class="jumbotron bg-dark col-md-9">
+            <h1 class="display-4 text-light">Hello World.<div class="space"><span class="display-4 typewriter-effect">|</span></div></h1>
+            <p class="lead text-light">I am a web-developing and web-designing enthusiast based in Prague, Czech Republic.
+              <br class="my-2">My dream is to become a professional front-end developer.
+            </p>
+            <hr class="col-xs-10 my-4">
+            <p class="lead text-jumbotron">In the About section of my page, you can find basic information about my skills.
+              For full CV please download a printed version in pdf format located on the bottom of the page.</p>
+            <p class="lead text-jumbotron">In the Projects section, you can find information about three of my best Projects.<br>
+              The first is an expense and income manager, the second is a web card game based on the Lord of the Rings and the third is a pexeso
+              game for 2 players.
+            <p class="lead text-jumbotron">In the last section, you can find my personal contacts, as well as the links to social media networks.
+            </p>
+            <hr class="col-xs-10 my-4">
+            <p class="lead text-light text-center no-padding">If you like my work,</p>
+            <a href="mailto: simon.smejkal@seznam.cz" id="nav-contact"><button class="btn btn-danger btn-jumbotron">Contact me</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="passive" id="div-cv">
+      <div class="container">
+        <div class="jumbotron bg-dark col-md-9">
+          <h2 class="display-4">Personal info</h2>
+          <div class="row bottom-padding-50 portrait-div">
+            <div class="col-lg-5 portrait">
+              <img src="img/portrait.jpg" alt="portrait" class="portrait-img" width="200">
+            </div>
+            <div class="col-lg-7 personal-info">
+              <p><span class="fas fa-home"></span>Praha-Libeň, 19000</p>
+              <p><span class="fas fa-at"></span>simon.smejkal@seznam.cz</p>
+              <p><span class="fas fa-mobile-alt"></span>+420732784745</p>
+              <p><span class="fas fa-birthday-cake"></span>31.05.1989</p>
+              <p><span class="fas fa-flag"></span>CZE</p>
+            </div>
+          </div>
+          <h2 class="display-4">Developer skills</h2>
+          <div class="row bottom-padding-50">
+            <div class="col-sm-6">
+              <h3>HTML</h3>
+              <p>HTML5 semantic markup</p>
+              <p>HTML5 new elements</p>
+              <p>HTML5 new form types</p>
+            </div>
+            <div class="col-sm-6">
+              <h3>CSS</h3>
+              <p>Bootstrap</p>
+              <p>Responsive design</p>
+              <p>Flexbox / Grid</p>
+            </div>
+            <div class="col-sm-6">
+              <h3>Javascript</h3>
+              <p>React.js</p>
+              <p>Vue.js</p>
+              <p>Node.js, NPM</p>
+              <p>JSON</p>
+            </div>
+            <div class="col-sm-6">
+              <h3>Other</h3>
+              <p>Visual Studio Code</p>
+              <p>Git & GitHub</p>
+              <p>Command line</p>
+              <p>Inkscape</p>
+            </div>
+          </div><br>
+          <div class="row">
+            <p class="pdf-text">Download my full CV </p>
+            <a class="pdf-a" href="cv/Simon-Smejkal-CV.pdf" target="_blank" style="text-decoration: none;"><span class="far fa-file-pdf pdf-icon"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="passive" id="div-projects">
+      <div class="container">
+        <div class="jumbotron bg-dark col-md-9">
+          <h2 class="display-4">Projects</h2>
+          <div class="bottom-padding-30">
+            <h3>Expense and income manager</h3>
+            <a href="img/projekty/accounts.png" target="_blank"><img class="img-fluid projects-img" src="img/projekty/accounts.png" alt="accounts"></a>
+            <p>Expense- and income-tracking web application where you can store the information
+                about your financial operations and then filter them by multiple criteria. 
+                There is also a statistics section where you can display your payments in groups, filtered by categories
+                and by date.</p>
+            <h5 class="projects-h5">View on github <a href="https://github.com/smetak13/vue-accounts" target="_blank" 
+              style="text-decoration: none;"><span class="fab fa-github"></span></a></h5>
+            <h5 class="projects-h5">View in browser <a href="https://smetak13.github.io/accounts" target="_blank" 
+              style="text-decoration: none;"><span class="fab fa-chrome"></span></a></h5>
+          </div>
+          <div class="bottom-padding-30">
+            <h3>Pexeso</h3>
+            <a href="img/projekty/pexeso.png" target="_blank"><img class="img-fluid projects-img" src="img/projekty/pexeso.png" alt="pexeso"></a>
+            <p>Pexeso for 2 players made in Vue.js framework. Optimized for all devices.</p>
+            <h5 class="projects-h5">View on github <a href="https://github.com/smetak13/vue-pexeso" target="_blank" 
+              style="text-decoration: none;"><span class="fab fa-github"></span></a></h5>
+            <h5 class="projects-h5">View in browser <a href="https://smetak13.github.io/pexeso" target="_blank" 
+              style="text-decoration: none;"><span class="fab fa-chrome"></span></a></h5>
+          </div>
+          <div class="bottom-padding-30">
+            <h3>Lord of the Rings</h3>
+            <a href="img/projekty/lotr.png" target="_blank"><img class="img-fluid projects-img" src="img/projekty/lotr.png" alt="lotr"></a>
+            <p>A web card game for one player. You can choose one of the six characters and then your enemy is chosen based on the difficulty level. 
+              Every character has two skills and there is also an option to choose a rune and to apply a mana skill 
+              when you have generated enough mana points. 
+              You can listen to the original Lord of the Rings soundtrack while fighting a tough and long battle.</p>
+            <h5 class="projects-h5">View on github <a href="https://github.com/smetak13/lotr" target="_blank" 
+              style="text-decoration: none;"><span class="fab fa-github"></span></a></h5>
+            <h5 class="projects-h5">View in browser <a href="https://smetak13.github.io/lotr" target="_blank" 
+              style="text-decoration: none;"><span class="fab fa-chrome"></span></a></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="passive" id="div-contact">
+      <div class="container">
+        <div class="jumbotron bg-dark col-md-9">
+          <h2 class="display-4">Contact</h2>
+          <div class="row"> 
+            <div class="col-sm-8 col-md-8 col-lg-6">
+              <div class="bottom-padding-30">
+                <h3>Personal</h3>
+                  <h5>email</h5>
+                  <p>simon.smejkal@seznam.cz</p>
+                  <h5>phone</h5>
+                  <p>+420732784745</p>
+              </div>  
+              <h3 id="header-social">Social Media</h3>
+              <div class="fonts">
+                <a href="https://www.facebook.com/simon.smejkal.5" target="_blank" style="text-decoration: none;"><span class="fab fa-facebook"></span></a>
+                <a href="https://github.com/smetak13" target="_blank" style="text-decoration: none;"><span class="fab fa-github"></span></a>
+                <a href="https://www.instagram.com/smetak13/" target="_blank" style="text-decoration: none;"><span class="fab fa-instagram"></span></a>
+                <a href="https://www.youtube.com/channel/UCRCgAmy35Qo3FyLVM95UDgw?view_as=subscriber" target="_blank" style="text-decoration: none;"><span class="fab fa-youtube"></span></a>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-6">
+              <canvas id="canvas"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <footer class="fixed-bottom">
+    <small class="lead text-footer">&copy; Šimon Smejkal 2018</small>
+  </footer> 
+  <script src="js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
